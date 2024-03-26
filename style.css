@@ -111,10 +111,10 @@ body {
     align-items: center;
     position: relative;
 
-    background-image: url(./img/mesa-com-varios-monitores-de-computador-exibindo-codigo-de-analise-e-compilacao-de-linguagem-de-programacao-no-escritorio-vazio-da-agencia-de-desenvolvimento-de-software-servidores-de-computacao-em-nuvem-algor.jpg);
+    background-image: url(./img/img1.jpg);
     background-size: cover;
-    background-position: top center;
-}
+    background-position: top center; 
+} 
 
 
 
@@ -131,11 +131,16 @@ body {
 
 }
 
+.dev a {
+    display: inline-block; /* Garante que o link tenha o tamanho da imagem */
+    cursor: pointer; /* Altera o cursor para indicar que o link é clicável */
+}
 
-.links img {
-    width: 35px;
-    height: 35px;
-    
+.dev a img::after {
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    justify-items: center;
 }
 
 
@@ -175,7 +180,7 @@ body {
 }
 
 .person-name {
-    margin-top: 11renm;
+    margin-top: 11rem;
 }
 
 .skills-content {
